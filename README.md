@@ -1,5 +1,6 @@
 
-### Unstructured Data Analysis and Chatbot (with RAG SageMaker Jumpstart)
+
+### Unstructured Data Analysis and Chatbot (RAG SageMaker Jumpstart)
 
 #### Overview
 This application processes unstructured text data from PDFs and provides a conversational interface using a chatbot. It utilizes `Streamlit` for a user-friendly web interface and integrates several AI tools for processing, storing, and retrieving text data, including the use of AWS SageMaker for large language model (LLM) deployment.
@@ -52,5 +53,4 @@ This application processes unstructured text data from PDFs and provides a conve
 - **Main Application**: Hosted with Streamlit for a user-friendly interface.
 
 #### License
-This project is licensed under the MIT License.
-
+This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
