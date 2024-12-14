@@ -1,17 +1,19 @@
 
 
-### Unstructured Data Analysis and Chatbot (RAG SageMaker Jumpstart)
+# Unstructured Data Analysis and Chatbot (RAG AWS SageMaker Jumpstart)
 
-#### Overview
+![1_qpe3DIR0eD0LKTDozKBQeg](https://github.com/user-attachments/assets/ebcbda13-4158-415c-a0df-99417211ea04)
+
+## Overview
 This application processes unstructured text data from PDFs and provides a conversational interface using a chatbot. It utilizes `Streamlit` for a user-friendly web interface and integrates several AI tools for processing, storing, and retrieving text data, including the use of AWS SageMaker for large language model (LLM) deployment.
 
-#### Features
+## Features
 - **PDF Text Extraction**: Reads and extracts text from uploaded PDF documents.
 - **Text Chunking**: Breaks down extracted text into smaller chunks for efficient processing.
 - **Embedding and Vector Storage**: Uses Hugging Face embeddings and FAISS for efficient storage and retrieval of text embeddings.
 - **Conversational Interface**: Allows users to query the extracted data through a chatbot interface powered by LangChain and SageMaker.
 
-#### Requirements
+## Requirements
 - Python 3.8+
 - [Streamlit](https://streamlit.io/)
 - [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) (for AWS services)
@@ -19,7 +21,7 @@ This application processes unstructured text data from PDFs and provides a conve
 - [LangChain](https://github.com/hwchase17/langchain)
 - Other packages listed in `requirements.txt`
 
-#### Setup
+## Setup
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/Jencheng1/RAG-SageMakerJumpstart.git
@@ -39,11 +41,11 @@ This application processes unstructured text data from PDFs and provides a conve
     streamlit run unstructure_data_analysis_and_chatbot.py
     ```
 
-#### Usage
+## Usage
 1. **Upload PDFs**: Drag and drop your PDF files into the interface.
 2. **Interact**: Use the chatbot to ask questions about the content in your PDFs.
 
-#### Project Structure
+## Project Structure
 - **Functions**:
   - `get_pdf_text`: Extracts text from PDF files.
   - `get_text_chunks`: Splits text into manageable chunks.
@@ -52,5 +54,5 @@ This application processes unstructured text data from PDFs and provides a conve
   - `ContentHandler`: Manages input/output transformations for the LLM.
 - **Main Application**: Hosted with Streamlit for a user-friendly interface.
 
-#### License
+### License
 This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
